@@ -32,6 +32,45 @@ graph TD
 
 ---
 
+---
+
+## 2. Detection Results
+
+The system produces labeled detections with bounding boxes and generates alert outputs for detected wild animals.
+
+### Sample Detection Outputs
+
+The following examples show the detector identifying animals in input images:
+
+![Detection result 1](results/detection-result-1.jpg)
+
+![Detection result 2](results/detection-result-2.jpg)
+
+### Alert Pipeline Output
+
+The pipeline combines YOLO detection confidence with the CNN verifier probability to classify the alert level.
+
+![Pipeline alert output](results/pipeline-alert-output.png)
+
+### Model Evaluation
+
+The repository also includes generated evaluation outputs such as:
+
+- Confusion matrices.
+- Training and validation curves.
+- Pipeline alert metrics.
+- Grad-CAM explainability visualizations.
+
+![Confusion matrix](results/confusion-matrix.png)
+
+![Training history](results/training-history.png)
+
+![Grad-CAM explanation](results/gradcam-result.png)
+
+The exact filenames must match the files inside `docs/results/`.
+
+---
+
 ## 2. Dataset Context
 
 The system uses **two primary datasets** plus an optional **species-extension dataset**:
