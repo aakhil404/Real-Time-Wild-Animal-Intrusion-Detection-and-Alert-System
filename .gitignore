@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Machine-learning weights and datasets
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.pkl
+*.pickle
+datasets/
+dataset/
+data/
+runs/
+weights/
+
+# Videos and large media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+
+# Windows
+.DS_Store
+Thumbs.db
